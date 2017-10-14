@@ -13,12 +13,12 @@ import com.emebesoft.juanlucena.R;
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link PorjectsFragment.OnFragmentInteractionListener} interface
+ * {@link ProjectsFragment.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link PorjectsFragment#newInstance} factory method to
+ * Use the {@link ProjectsFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class PorjectsFragment extends Fragment {
+public class ProjectsFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -30,7 +30,7 @@ public class PorjectsFragment extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public PorjectsFragment() {
+    public ProjectsFragment() {
         // Required empty public constructor
     }
 
@@ -40,11 +40,11 @@ public class PorjectsFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment PorjectsFragment.
+     * @return A new instance of fragment ProjectsFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static PorjectsFragment newInstance(String param1, String param2) {
-        PorjectsFragment fragment = new PorjectsFragment();
+    public static ProjectsFragment newInstance(String param1, String param2) {
+        ProjectsFragment fragment = new ProjectsFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);

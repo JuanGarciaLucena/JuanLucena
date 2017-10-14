@@ -1,5 +1,8 @@
 package com.emebesoft.juanlucena.ui.main.activities;
 
+import android.app.Fragment;
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
 import android.databinding.DataBindingUtil;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -11,6 +14,7 @@ import android.widget.Toast;
 import com.emebesoft.juanlucena.R;
 import com.emebesoft.juanlucena.Utils.UIUtils;
 import com.emebesoft.juanlucena.databinding.ActivityMainBinding;
+import com.emebesoft.juanlucena.ui.main.fragment.IntroFragment;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -38,7 +42,10 @@ public class MainActivity extends AppCompatActivity {
                 switch (item.getItemId()){
 
                     case R.id.action_intro:
-                        Toast.makeText(MainActivity.this, "INTRO", Toast.LENGTH_SHORT).show();
+
+                        FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
+                        fragmentTransaction.replace(R.id.main_container, new IntroFragment().newInstance());
+                        fragmentTransaction.commit();
                         break;
                     case R.id.action_experience:
                         Toast.makeText(MainActivity.this, "EXPERIENCE", Toast.LENGTH_SHORT).show();
