@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "587958617385",
+    "firebase_url": "https://juanlucena-412e4.firebaseio.com",
+    "project_id": "juanlucena-412e4",
+    "storage_bucket": "juanlucena-412e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587958617385:android:599cb55ee4554c6f",
+        "android_client_info": {
+          "package_name": "com.emebesoft.juanlucena"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "587958617385-fojg9c72cec14g69ubhticq2326kghll.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.emebesoft.juanlucena",
+            "certificate_hash": "a03d144273b7aba7d5c94b7b531cfa7f76eaeb8f"
+          }
+        },
+        {
+          "client_id": "587958617385-0hkccnl94iib26616q3h0fql0clt3chv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxyFESyEy41JB-gQTIS3Esgt2i0v9N5Mw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "587958617385-0hkccnl94iib26616q3h0fql0clt3chv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
