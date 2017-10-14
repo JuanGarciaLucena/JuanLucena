@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">JuanLucena</string>
+
+    <!-- bottom navigation view menu strings -->
+    <string name="bottom_menu_intro">Presentación</string>
+    <string name="bottom_menu_cv">Experiencia</string>
+    <string name="bottom_menu_projects">Proyectos</string>
+    <string name="bottom_menu_test_field">Ejemplos</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

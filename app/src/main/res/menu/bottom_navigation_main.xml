@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_intro"
+        android:title="@string/bottom_menu_intro"
+        android:icon="@mipmap/ic_intro" />
+    <item android:id="@+id/action_experience"
+        android:title="@string/bottom_menu_cv"
+        android:icon="@mipmap/ic_experience" />
+    <item android:id="@+id/action_projects"
+        android:title="@string/bottom_menu_projects"
+        android:icon="@mipmap/ic_project" />
+    <item android:id="@+id/action_examples"
+        android:title="@string/bottom_menu_test_field"
+        android:icon="@mipmap/ic_examples" />
+</menu>
